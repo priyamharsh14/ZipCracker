@@ -2,8 +2,9 @@ import zipfile
 import itertools
 import time
 
-z = zipfile.ZipFile('main.zip','r')
-for j in range(1,5):
+z = zipfile.ZipFile('TEST.zip','r')
+l = int(input("Enter the max. length of password: "))
+for j in range(1,l+1):
     password = [''.join(i) for i in itertools.product('abcdefghijklmnopqrstuvwxyz0123456789', repeat=j)]
 a = ''
 start = time.time()
