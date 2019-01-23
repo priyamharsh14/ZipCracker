@@ -1,5 +1,11 @@
 # ZipCracker
 
+## Installation:
+
+```
+$ git clone https://github.com/priyamharsh14/ZipCracker.git
+```
+
 ## Usage:
 
 In terminal type -
