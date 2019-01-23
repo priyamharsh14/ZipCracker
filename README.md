@@ -3,7 +3,7 @@
 ## Usage:
 
 In terminal type -
-'''
+```
 $ python zipcracker.py --help
 __________.__         _________                       __
 \____    /|__|_____   \_   ___ \____________    ____ |  | __ ___________
@@ -22,9 +22,9 @@ Options:
   -h, --help            show this help message and exit
   -l LENGTH, --length=LENGTH
                         Max. length of the password
-'''
+```
 
 In order to crack an encrypted zip file -
-'''
+```
 $ python zipcarcker.py --length=<max. length of password> <filename>
-'''
+```
